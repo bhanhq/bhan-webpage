@@ -26,10 +26,10 @@ const Contact = () => {
                   <div className="text-left">
                     <p className="text-sm text-muted-foreground">{t('contact.email')}</p>
                     <a 
-                      href="mailto:bhanhq3@gmail.com" 
+                      href="mailto:contact@bhan.no" 
                       className="text-lg font-medium text-card-foreground hover:text-primary transition-colors"
                     >
-                      bhanhq3@gmail.com
+                      contact@bhan.no
                     </a>
                   </div>
                 </div>
@@ -51,7 +51,7 @@ const Contact = () => {
                 <Button 
                   size="lg" 
                   className="bg-primary hover:bg-primary/90 text-primary-foreground"
-                  onClick={() => window.location.href = 'mailto:bhanhq3@gmail.com'}
+                  onClick={() => window.location.href = 'mailto:contact@bhan.no'}
                 >
                   <Mail className="mr-2 h-5 w-5" />
                   <span>{t('contact.sendEmail')}</span>
