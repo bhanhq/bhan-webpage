@@ -21,11 +21,8 @@ const Team = () => {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-4 text-center mb-16">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-foreground">
-            Møt Teamet
+            Team
           </h2>
-          <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-            To dedikerte eksperter klar til å realisere dine digitale visjoner
-          </p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">

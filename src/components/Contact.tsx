@@ -10,9 +10,6 @@ const Contact = () => {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-foreground">
             Kontakt Oss
           </h2>
-          <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-            La oss diskutere hvordan vi kan hjelpe deg å nå dine mål
-          </p>
         </div>
 
         <div className="max-w-3xl mx-auto">
@@ -47,14 +44,14 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="pt-6 border-t border-border">
+              <div className="pt-6 border-t border-border flex justify-center">
                 <Button 
                   size="lg" 
-                  className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground"
+                  className="bg-primary hover:bg-primary/90 text-primary-foreground"
                   onClick={() => window.location.href = 'mailto:bhanhq3@gmail.com'}
                 >
                   <Mail className="mr-2 h-5 w-5" />
-                  Send oss en e-post
+                  <span>Send oss en e-post</span>
                 </Button>
               </div>
 
