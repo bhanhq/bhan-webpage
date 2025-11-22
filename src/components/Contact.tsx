@@ -1,14 +1,17 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { useLanguage } from "@/contexts/LanguageContext";
 import { Mail, Building2 } from "lucide-react";
 
 const Contact = () => {
+  const { t } = useLanguage();
+  
   return (
     <section id="contact" className="py-20 md:py-32 bg-background">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-4 text-center mb-16">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-foreground">
-            Kontakt Oss
+            {t('contact.title')}
           </h2>
         </div>
 
@@ -21,7 +24,7 @@ const Contact = () => {
                     <Mail className="h-6 w-6 text-primary" />
                   </div>
                   <div className="text-left">
-                    <p className="text-sm text-muted-foreground">E-post</p>
+                    <p className="text-sm text-muted-foreground">{t('contact.email')}</p>
                     <a 
                       href="mailto:bhanhq3@gmail.com" 
                       className="text-lg font-medium text-card-foreground hover:text-primary transition-colors"
@@ -38,7 +41,7 @@ const Contact = () => {
                     <Building2 className="h-6 w-6 text-primary" />
                   </div>
                   <div className="text-left">
-                    <p className="text-sm text-muted-foreground">Org.nr</p>
+                    <p className="text-sm text-muted-foreground">{t('contact.orgNr')}</p>
                     <p className="text-lg font-medium text-card-foreground">936 333 982</p>
                   </div>
                 </div>
@@ -51,14 +54,8 @@ const Contact = () => {
                   onClick={() => window.location.href = 'mailto:bhanhq3@gmail.com'}
                 >
                   <Mail className="mr-2 h-5 w-5" />
-                  <span>Send oss en e-post</span>
+                  <span>{t('contact.sendEmail')}</span>
                 </Button>
-              </div>
-
-              <div className="text-center pt-4">
-                <p className="text-sm text-muted-foreground">
-                  Vi svarer normalt innen 24 timer
-                </p>
               </div>
             </div>
           </Card>

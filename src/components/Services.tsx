@@ -1,18 +1,21 @@
 import { Card } from "@/components/ui/card";
+import { useLanguage } from "@/contexts/LanguageContext";
 import appDevIcon from "@/assets/app-dev-icon.jpg";
 import consultingIcon from "@/assets/consulting-icon.jpg";
 import { Code2, Users } from "lucide-react";
 
 const Services = () => {
+  const { t } = useLanguage();
+  
   return (
     <section id="services" className="py-20 md:py-32 bg-background">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-4 text-center mb-16">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-foreground">
-            Våre Tjenester
+            {t('services.title')}
           </h2>
           <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-            Vi tilbyr omfattende løsninger tilpasset dine behov
+            {t('services.subtitle')}
           </p>
         </div>
 
@@ -22,24 +25,22 @@ const Services = () => {
               <div className="relative w-24 h-24 rounded-full overflow-hidden bg-primary/10 flex items-center justify-center">
                 <img 
                   src={appDevIcon} 
-                  alt="Apputvikling" 
+                  alt={t('services.appDev.title')} 
                   className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
                 />
               </div>
               <div className="flex items-center gap-2">
                 <Code2 className="h-5 w-5 text-primary" />
-                <h3 className="text-2xl font-bold text-card-foreground">Apputvikling</h3>
+                <h3 className="text-2xl font-bold text-card-foreground">{t('services.appDev.title')}</h3>
               </div>
               <p className="text-muted-foreground leading-relaxed">
-                Vi bygger moderne, skalerbare applikasjoner med de nyeste teknologiene. 
-                Fra konsept til lansering - vi skaper digitale opplevelser som engasjerer 
-                og konverterer.
+                {t('services.appDev.description')}
               </p>
               <ul className="text-sm text-muted-foreground space-y-2 pt-4">
-                <li>• Mobile og web-applikasjoner</li>
-                <li>• Cloud-native løsninger</li>
-                <li>• API-integrasjoner</li>
-                <li>• Skalerbar arkitektur</li>
+                <li>• {t('services.appDev.item1')}</li>
+                <li>• {t('services.appDev.item2')}</li>
+                <li>• {t('services.appDev.item3')}</li>
+                <li>• {t('services.appDev.item4')}</li>
               </ul>
             </div>
           </Card>
@@ -49,24 +50,22 @@ const Services = () => {
               <div className="relative w-24 h-24 rounded-full overflow-hidden bg-primary/10 flex items-center justify-center">
                 <img 
                   src={consultingIcon} 
-                  alt="Konsultasjon" 
+                  alt={t('services.consulting.title')} 
                   className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
                 />
               </div>
               <div className="flex items-center gap-2">
                 <Users className="h-5 w-5 text-primary" />
-                <h3 className="text-2xl font-bold text-card-foreground">Konsultasjon</h3>
+                <h3 className="text-2xl font-bold text-card-foreground">{t('services.consulting.title')}</h3>
               </div>
               <p className="text-muted-foreground leading-relaxed">
-                Erfarne konsulenter som leverer innsikt og strategi for å optimalisere 
-                dine digitale prosesser. Vi hjelper deg å ta de riktige teknologiske 
-                valgene for langsiktig suksess.
+                {t('services.consulting.description')}
               </p>
               <ul className="text-sm text-muted-foreground space-y-2 pt-4">
-                <li>• Teknisk rådgivning</li>
-                <li>• Digital transformasjon</li>
-                <li>• Prosessoptimalisering</li>
-                <li>• Strategisk veiledning</li>
+                <li>• {t('services.consulting.item1')}</li>
+                <li>• {t('services.consulting.item2')}</li>
+                <li>• {t('services.consulting.item3')}</li>
+                <li>• {t('services.consulting.item4')}</li>
               </ul>
             </div>
           </Card>

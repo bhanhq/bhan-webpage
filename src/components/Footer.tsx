@@ -1,4 +1,8 @@
+import { useLanguage } from "@/contexts/LanguageContext";
+
 const Footer = () => {
+  const { t } = useLanguage();
+  
   return (
     <footer className="border-t border-border bg-muted/30">
       <div className="container px-4 md:px-6 py-8">
@@ -9,7 +13,7 @@ const Footer = () => {
           </div>
           <div className="text-center md:text-right">
             <p className="text-xs text-muted-foreground">
-              © {new Date().getFullYear()} Bhan AS. Alle rettigheter reservert.
+              © {new Date().getFullYear()} Bhan AS. {t('footer.rights')}
             </p>
           </div>
         </div>

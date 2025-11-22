@@ -1,17 +1,20 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { useLanguage } from "@/contexts/LanguageContext";
 import { Linkedin } from "lucide-react";
 
 const Team = () => {
+  const { t } = useLanguage();
+  
   const teamMembers = [
     {
       name: "Øystein Bruce",
-      role: "Konsulent & Utvikler",
+      role: t('team.role'),
       linkedin: "https://www.linkedin.com/in/oystein-bruce/",
     },
     {
       name: "Bendik Nyheim",
-      role: "Konsulent & Utvikler",
+      role: t('team.role'),
       linkedin: "https://www.linkedin.com/in/bendik-nyheim-b60257223/",
     },
   ];
@@ -21,7 +24,7 @@ const Team = () => {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-4 text-center mb-16">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-foreground">
-            Team
+            {t('team.title')}
           </h2>
         </div>
 
@@ -46,7 +49,7 @@ const Team = () => {
                   onClick={() => window.open(member.linkedin, '_blank')}
                 >
                   <Linkedin className="mr-2 h-4 w-4" />
-                  LinkedIn Profil
+                  {t('team.linkedin')}
                 </Button>
               </div>
             </Card>
