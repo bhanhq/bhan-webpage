@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "slug": "kvern",
+      "name": "Kvern",
+      "type": "web-app",
+      "icon": "/images/projects/kvern-logo.png",
+      "description": {
+        "no": "Kvern lar deg søke i egne dokumenter med vanlig språk og viser relevante utdrag direkte i PDF-en. Ingen genererte svar, bare treff i dokumentene du har lastet opp.",
+        "en": "Kvern lets you search your own documents using plain language and shows relevant passages directly in the PDF. No generated answers, just matches in the documents you uploaded."
+
+      },
+      "technologies": ["AI", "RAG", "React", "TypeScript", "Python", "FastAPI"],
+      "link": "https://kvern.vercel.app/",
+      "featured": true
+    }
+  ]
+}

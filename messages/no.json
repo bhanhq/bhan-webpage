@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "title": "Bhan AS - Programvareutvikling og Konsulentvirksomhet",
+    "description": "Vi utvikler apper og tilbyr konsulentvirksomhet innen programvareutvikling."
+  },
+  "nav": {
+    "home": "Hjem",
+    "team": "Teamet",
+    "projects": "Prosjekter",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Vi leverer.",
+    "subtitle": "App-utvikling og konsulentvirksomhet",
+    "cta": "Ta kontakt"
+  },
+  "services": {
+    "title": "Våre tjenester",
+    "appDevelopment": {
+      "title": "App-utvikling",
+      "description": "Vi utvikler mobilapper og webapplikasjoner med moderne teknologi og beste praksis."
+    },
+    "consulting": {
+      "title": "Konsulentvirksomhet",
+      "description": "Vi tilbyr teknisk rådgivning, arkitekturgjennomgang og teamforsterkninger."
+    }
+  },
+  "team": {
+    "title": "Møt teamet",
+    "subtitle": "Grunnleggerne bak Bhan AS",
+    "viewProfile": "Se profil",
+    "viewAll": "Se hele teamet"
+  },
+  "projects": {
+    "title": "Våre prosjekter",
+    "subtitle": "Utforsk hva vi har bygget",
+    "viewAll": "Se alle prosjekter",
+    "technologies": "Teknologier",
+    "visitProject": "Besøk prosjekt",
+    "status": {
+      "in-development": "Under utvikling",
+      "live": "Live",
+      "completed": "Fullført"
+    }
+  },
+  "contact": {
+    "title": "Kontakt oss",
+    "subtitle": "Vi vil gjerne høre fra deg",
+    "email": "E-post",
+    "orgNumber": "Org.nr"
+  },
+  "footer": {
+    "rights": "Alle rettigheter reservert"
+  },
+  "skills": {
+    "languages": "Språk",
+    "frameworks": "Rammeverk",
+    "tools": "Verktøy"
+  }
+}

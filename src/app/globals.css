@@ -1,26 +1,123 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-inter);
   --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root {
+  --radius: 0.625rem;
+
+  /* Light mode palette (100 - darkmode%) */
+  --bg-dark: hsl(277 62% 98%);
+  --bg: hsl(281 40% 95%);
+  --bg-light: hsl(281 23% 88%);
+  --text: hsl(281 100% 2%);
+  --text-muted: hsl(281 22% 28%);
+  --highlight: hsl(281 13% 59%);
+  --border-val: hsl(281 17% 70%);
+  --border-muted: hsl(281 25% 80%);
+  --primary-val: hsl(281 48% 26%);
+  --secondary-val: hsl(99 34% 38%);
+
+  /* Map to shadcn semantic variables */
+  --background: var(--bg);
+  --foreground: var(--text);
+  --card: var(--bg-light);
+  --card-foreground: var(--text);
+  --popover: var(--bg-light);
+  --popover-foreground: var(--text);
+  --primary: var(--primary-val);
+  --primary-foreground: var(--bg-dark);
+  --secondary: var(--secondary-val);
+  --secondary-foreground: var(--bg-dark);
+  --muted: var(--bg-light);
+  --muted-foreground: var(--text-muted);
+  --accent: var(--highlight);
+  --accent-foreground: var(--text);
+  --destructive: var(--danger);
+  --border: var(--border-val);
+  --input: var(--bg-light);
+  --ring: var(--primary-val);
+
+  /* Chart colors */
+  --chart-1: var(--primary-val);
+  --chart-2: var(--secondary-val);
+  --chart-3: var(--highlight);
+  --chart-4: var(--text-muted);
+  --chart-5: var(--border-val);
+
+  /* Sidebar */
+  --sidebar: var(--bg-dark);
+  --sidebar-foreground: var(--text);
+  --sidebar-primary: var(--primary-val);
+  --sidebar-primary-foreground: var(--bg-dark);
+  --sidebar-accent: var(--highlight);
+  --sidebar-accent-foreground: var(--text);
+  --sidebar-border: var(--border-muted);
+  --sidebar-ring: var(--primary-val);
+}
+
+.dark {
+  /* Dark mode palette (original values) */
+  --bg-dark: hsl(277 62% 2%);
+  --bg: hsl(281 40% 12%);
+  --bg-light: hsl(281 23% 20%);
+  --text: hsl(281 100% 98%);
+  --text-muted: hsl(281 22% 72%);
+  --highlight: hsl(281 13% 41%);
+  --border-val: hsl(281 17% 30%);
+  --border-muted: hsl(281 25% 20%);
+  --primary-val: hsl(281 48% 74%);
+  --secondary-val: hsl(99 34% 62%);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  body {
+    @apply bg-background text-foreground;
+  }
 }

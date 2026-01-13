@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "title": "Bhan AS - Software Development and Consulting",
+    "description": "We develop apps and offer consulting services in software development."
+  },
+  "nav": {
+    "home": "Home",
+    "team": "Team",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "We deliver.",
+    "subtitle": "App development and consulting",
+    "cta": "Get in touch"
+  },
+  "services": {
+    "title": "Our Services",
+    "appDevelopment": {
+      "title": "App Development",
+      "description": "We develop mobile apps and web applications using modern technology and best practices."
+    },
+    "consulting": {
+      "title": "Consulting",
+      "description": "We offer technical advisory, architecture reviews, and team augmentation."
+    }
+  },
+  "team": {
+    "title": "Meet the team",
+    "subtitle": "The founders behind Bhan AS",
+    "viewProfile": "View profile",
+    "viewAll": "View full team"
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Explore what we've built",
+    "viewAll": "View all projects",
+    "technologies": "Technologies",
+    "visitProject": "Visit project",
+    "status": {
+      "in-development": "In Development",
+      "live": "Live",
+      "completed": "Completed"
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "We'd love to hear from you",
+    "email": "Email",
+    "orgNumber": "Org. number"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  },
+  "skills": {
+    "languages": "Languages",
+    "frameworks": "Frameworks",
+    "tools": "Tools"
+  }
+}

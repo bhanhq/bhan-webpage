@@ -1,0 +1,32 @@
+{
+  "services": [
+    {
+      "id": "app-development",
+      "icon": "smartphone",
+      "title": {
+        "no": "App-utvikling",
+        "en": "App Development"
+      },
+      "description": {
+        "no": "Vi utvikler mobilapper og webapplikasjoner med moderne og robuste teknologier. Fra idé til lansering tar vi hånd om hele prosessen.",
+        "en": "We develop mobile apps and web applications using modern, reliable technologies. From idea to launch, we handle the entire process."
+      },
+      "highlights": ["Mobile Apps", "Web Applications", "Full-stack Development", "API & Backend Design"]
+    },
+    {
+      "id": "consulting",
+      "icon": "users",
+      "title": {
+        "no": "Konsulentvirksomhet",
+        "en": "Consulting"
+      },
+      "description": {
+        "no": "Vi tilbyr teknisk rådgivning og utvikling med fokus på å skape verdi av data. Vi hjelper med dataanalyse, dashboards, AI-løsninger, backend-utvikling, mobilapper og DevOps.",
+        "en": "We provide technical advisory and development services focused on turning data into value. We help with data analysis, dashboards, AI solutions, backend development, mobile apps, and DevOps."
+      },
+      "highlights": ["Technical Advisory", "Data & AI", "Software Development", "DevOps"]
+
+
+    }
+  ]
+}

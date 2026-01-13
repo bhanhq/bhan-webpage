@@ -1,0 +1,14 @@
+{
+  "slug": "bendik",
+  "name": "Bendik Nyheim",
+  "title": {
+    "no": "Medgründer & Utvikler",
+    "en": "Co-founder & Developer"
+  },
+  "photo": "/images/team/DSCF7651.jpg",
+  "bio": {
+    "no": "Utvikler med fokus på data, AI, backend og DevOps. Erfaring med å bygge og drifte skalerbare systemer og produkter.",
+    "en": "Developer focused on data, AI, backend, and DevOps. Experienced in building and operating scalable systems and products."
+  },
+  "linkedin": "https://www.linkedin.com/in/bendik-nyheim-b60257223"
+}
