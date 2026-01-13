@@ -88,8 +88,8 @@ export function Header() {
                   <span className="sr-only">Open menu</span>
                 </Button>
               </SheetTrigger>
-              <SheetContent side="right" className="w-[240px]">
-                <nav className="flex flex-col gap-4 mt-8">
+              <SheetContent side="right" className="w-[240px] p-6 pt-12">
+                <nav className="flex flex-col gap-4">
                   {scrollItems.map((item) => (
                     <button
                       key={item.id}
