@@ -28,7 +28,7 @@ export const metadata: Metadata = {
         url: '/images/logos/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Bhan - Software Development & Consulting',
+        alt: 'Bhan - Programvareutvikling og rådgivning',
       },
     ],
   },

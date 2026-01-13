@@ -22,10 +22,19 @@ export async function generateMetadata({
       description: t('description'),
       url: 'https://bhan.no',
       locale: locale === 'no' ? 'nb_NO' : 'en_US',
+      images: [
+        {
+          url: '/images/logos/og-image.png',
+          width: 1200,
+          height: 630,
+          alt: 'Bhan - Programvareutvikling og rådgivning',
+        },
+      ],
     },
     twitter: {
       title: t('title'),
       description: t('description'),
+      images: ['/images/logos/og-image.png'],
     },
     alternates: {
       canonical: 'https://bhan.no',
