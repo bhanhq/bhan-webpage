@@ -1,10 +1,16 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Hero } from '@/components/home/Hero';
 import { ServicesSection } from '@/components/home/ServicesSection';
 import { TeamPreview } from '@/components/home/TeamPreview';
 import { ProjectsPreview } from '@/components/home/ProjectsPreview';
 import { ContactSection } from '@/components/home/ContactSection';
 import { getCompany } from '@/lib/content';
+import { locales } from '@/i18n/config';
+
+// Generate static pages for all locales
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
 
 export async function generateMetadata({
   params,
@@ -12,6 +18,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'metadata' });
 
   return {
@@ -46,7 +53,14 @@ export async function generateMetadata({
   };
 }
 
-export default function HomePage() {
+export default async function HomePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
   const company = getCompany();
 
   const jsonLd = {
