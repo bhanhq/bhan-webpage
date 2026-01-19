@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Bhan AS - Programvareutvikling og Konsulentvirksomhet",
-    "description": "Vi utvikler apper og tilbyr konsulentvirksomhet innen programvareutvikling."
+    "title": "Bhan AS - AI, Data og Konsulentvirksomhet",
+    "description": "Konsulentselskap med spisskompetanse på generativ AI og datadrevet utvikling."
   },
   "nav": {
     "home": "Hjem",
@@ -11,7 +11,7 @@
   },
   "hero": {
     "title": "Vi leverer.",
-    "subtitle": "App-utvikling og konsulentvirksomhet",
+    "subtitle": "Konsulentselskap med spisskompetanse på generativ AI og datadrevet utvikling.",
     "cta": "Ta kontakt"
   },
   "services": {

@@ -3,11 +3,12 @@ import { Container } from '@/components/shared/Container';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { getServices } from '@/lib/content';
 import { getLocalizedValue } from '@/lib/utils';
-import { Smartphone, Users } from 'lucide-react';
+import { Brain, Database, Users } from 'lucide-react';
 import type { Locale } from '@/lib/types';
 
 const iconMap: Record<string, React.ReactNode> = {
-  smartphone: <Smartphone className="h-8 w-8" />,
+  brain: <Brain className="h-8 w-8" />,
+  database: <Database className="h-8 w-8" />,
   users: <Users className="h-8 w-8" />,
 };
 
@@ -23,12 +24,12 @@ export function ServicesSection() {
           {t('title')}
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {services.map((service) => (
             <Card key={service.id} className="border-0 shadow-sm bg-background">
               <CardHeader>
                 <div className="mb-4 text-primary">
-                  {iconMap[service.icon] || <Smartphone className="h-8 w-8" />}
+                  {iconMap[service.icon] || <Brain className="h-8 w-8" />}
                 </div>
                 <CardTitle className="text-xl">
                   {getLocalizedValue(service.title, locale)}

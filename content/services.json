@@ -1,17 +1,30 @@
 {
   "services": [
     {
-      "id": "app-development",
-      "icon": "smartphone",
+      "id": "generative-ai",
+      "icon": "brain",
       "title": {
-        "no": "App-utvikling",
-        "en": "App Development"
+        "no": "Generativ AI",
+        "en": "Generative AI"
       },
       "description": {
-        "no": "Vi utvikler mobilapper og webapplikasjoner med moderne og robuste teknologier. Fra idé til lansering tar vi hånd om hele prosessen.",
-        "en": "We develop mobile apps and web applications using modern, reliable technologies. From idea to launch, we handle the entire process."
+        "no": "Vi hjelper med å implementere og integrere generativ AI i virksomheten din. Fra chatboter til automatiserte arbeidsflyter.",
+        "en": "We help implement and integrate generative AI into your business. From chatbots to automated workflows."
       },
-      "highlights": ["Mobile Apps", "Web Applications", "Full-stack Development", "API & Backend Design"]
+      "highlights": ["LLM Integration", "AI Agents", "Chatbots", "Workflow Automation"]
+    },
+    {
+      "id": "data",
+      "icon": "database",
+      "title": {
+        "no": "Data og Analyse",
+        "en": "Data and Analytics"
+      },
+      "description": {
+        "no": "Vi hjelper deg med å få verdi ut av dataene dine. Analyse, dashboards og datadrevne beslutninger.",
+        "en": "We help you extract value from your data. Analytics, dashboards, and data-driven decisions."
+      },
+      "highlights": ["Data Analysis", "Dashboards", "BI Solutions", "Data Engineering"]
     },
     {
       "id": "consulting",
@@ -21,12 +34,10 @@
         "en": "Consulting"
       },
       "description": {
-        "no": "Vi tilbyr teknisk rådgivning og utvikling med fokus på å skape verdi av data. Vi hjelper med dataanalyse, dashboards, AI-løsninger, backend-utvikling, mobilapper og DevOps.",
-        "en": "We provide technical advisory and development services focused on turning data into value. We help with data analysis, dashboards, AI solutions, backend development, mobile apps, and DevOps."
+        "no": "Vi løser komplekse tekniske utfordringer. Fra arkitekturvalg til implementering og optimalisering.",
+        "en": "We solve complex technical challenges. From architecture decisions to implementation and optimization."
       },
-      "highlights": ["Technical Advisory", "Data & AI", "Software Development", "DevOps"]
-
-
+      "highlights": ["Technical Advisory", "Architecture", "Software Development", "DevOps"]
     }
   ]
 }
