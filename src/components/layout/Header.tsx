@@ -55,14 +55,9 @@ export function Header() {
         <nav className="flex items-center justify-between h-16">
           <button
             onClick={scrollToTop}
-            className="flex flex-col items-start hover:text-primary transition-colors"
+            className={`text-2xl font-bold tracking-tight hover:text-primary transition-colors ${audiowide.className}`}
           >
-            <span className={`text-2xl font-bold tracking-tight ${audiowide.className}`}>
-              Bhan
-            </span>
-            <span className="text-[10px] text-muted-foreground -mt-1">
-              Bruce Høistad & Nyheim
-            </span>
+            Bhan
           </button>
 
           {/* Desktop Navigation */}
