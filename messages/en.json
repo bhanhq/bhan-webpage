@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Bhan AS - AI, Data and Consulting",
-    "description": "Consulting firm with deep expertise in generative AI and data-driven development."
+    "title": "Bhan AS - Tech company focused on AI and data",
+    "description": "We help companies implement AI in their systems, use data for insights, and automate workflows."
   },
   "nav": {
     "home": "Home",
@@ -11,7 +11,7 @@
   },
   "hero": {
     "title": "We deliver.",
-    "subtitle": "Consulting firm with deep expertise in generative AI and data-driven development.",
+    "subtitle": "Tech company focused on AI and data",
     "cta": "Get in touch"
   },
   "services": {
@@ -27,13 +27,13 @@
   },
   "team": {
     "title": "Meet the team",
-    "subtitle": "The founders behind Bhan AS",
+    "subtitle": "The founders behind Bhan",
     "viewProfile": "View profile",
     "viewAll": "View full team"
   },
   "projects": {
-    "title": "Our Projects",
-    "subtitle": "Explore what we've built",
+    "title": "Side Projects",
+    "subtitle": "Built to learn, shared with others",
     "viewAll": "View all projects",
     "technologies": "Technologies",
     "visitProject": "Visit project",

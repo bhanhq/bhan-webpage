@@ -6,11 +6,24 @@
       "type": "web-app",
       "icon": "/images/projects/kvern-logo.png",
       "description": {
-        "no": "Kvern lar deg søke i egne dokumenter med vanlig språk og viser relevante utdrag direkte i PDF-en. Du kan også stille spørsmål om dokumentene dine og få genererte svar med kildehenvisninger til PDF-en.",
-        "en": "Kvern lets you search your own documents using plain language and shows relevant passages directly in the PDF. You can also ask questions about your documents and get generated answers with citations to the PDF."
+        "no": "Vi ville utforske RAG og dokumentsøk, så vi bygget Kvern. Last opp dokumentene dine, søk med vanlig språk, og få AI-genererte svar med kildehenvisninger til PDF-en.",
+        "en": "We wanted to explore RAG and document search, so we built Kvern. Upload your documents, search using plain language, and get AI-generated answers with citations to the PDF."
       },
       "technologies": ["AI", "RAG", "React", "TypeScript", "Python", "FastAPI"],
       "link": "https://kvern.vercel.app/",
+      "featured": true
+    },
+    {
+      "slug": "cv-service",
+      "name": "CV Service",
+      "type": "web-app",
+      "icon": "/images/projects/cv-service-logo.svg",
+      "description": {
+        "no": "Vi ble lei av å vedlikeholde CV-er på to språk og spisse dem for ulike prosjekter. Så vi lagde et verktøy som hjelper oss med å gjøre det enklere. Last opp CV-en din og generer spissede CV-er på flere språk.",
+        "en": "We got tired of maintaining CVs in two languages and tailoring them for different projects. So we built a tool to help make it easier. Upload your CV and generate tailored CVs in multiple languages."
+      },
+      "technologies": ["AI", "React", "TypeScript", "Next.js"],
+      "link": "https://cvservice.vercel.app/",
       "featured": true
     }
   ]

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Bhan AS - AI, Data og Konsulentvirksomhet",
-    "description": "Konsulentselskap med spisskompetanse på generativ AI og datadrevet utvikling."
+    "title": "Bhan AS - Teknologiselskap med fokus på AI og data",
+    "description": "Vi hjelper selskaper å implementere AI i sine systemer, bruke data til innsikt og automatisere arbeidsflyter."
   },
   "nav": {
     "home": "Hjem",
@@ -11,7 +11,7 @@
   },
   "hero": {
     "title": "Vi leverer.",
-    "subtitle": "Konsulentselskap med spisskompetanse på generativ AI og datadrevet utvikling.",
+    "subtitle": "Teknologiselskap med fokus på AI og data",
     "cta": "Ta kontakt"
   },
   "services": {
@@ -27,13 +27,13 @@
   },
   "team": {
     "title": "Møt teamet",
-    "subtitle": "Grunnleggerne bak Bhan AS",
+    "subtitle": "Grunnleggerne bak Bhan",
     "viewProfile": "Se profil",
     "viewAll": "Se hele teamet"
   },
   "projects": {
-    "title": "Våre prosjekter",
-    "subtitle": "Utforsk hva vi har bygget",
+    "title": "Sideprosjekter",
+    "subtitle": "Bygget for å lære, delt med andre",
     "viewAll": "Se alle prosjekter",
     "technologies": "Teknologier",
     "visitProject": "Besøk prosjekt",
@@ -50,7 +50,7 @@
     "orgNumber": "Org.nr"
   },
   "footer": {
-    "rights": "Alle rettigheter reservert"
+    "rights": "Alle rettigheter forbeholdt"
   },
   "skills": {
     "languages": "Språk",

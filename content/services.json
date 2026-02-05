@@ -4,14 +4,14 @@
       "id": "generative-ai",
       "icon": "brain",
       "title": {
-        "no": "Generativ AI",
-        "en": "Generative AI"
+        "no": "AI",
+        "en": "AI"
       },
       "description": {
-        "no": "Vi hjelper med å implementere og integrere generativ AI i virksomheten din. Fra chatboter til automatiserte arbeidsflyter.",
-        "en": "We help implement and integrate generative AI into your business. From chatbots to automated workflows."
+        "no": "Vi hjelper virksomheten din med å bruke AI. Fra chatboter og automatiserte arbeidsflyter til AI-verktøy som gjør utvikling raskere.",
+        "en": "We help your business use AI. From chatbots and automated workflows to AI tools that speed up development."
       },
-      "highlights": ["LLM Integration", "AI Agents", "Chatbots", "Workflow Automation"]
+      "highlights": ["LLM Integration", "RAG", "AI Agents", "Coding Workflows"]
     },
     {
       "id": "data",
@@ -24,7 +24,7 @@
         "no": "Vi hjelper deg med å få verdi ut av dataene dine. Analyse, dashboards og datadrevne beslutninger.",
         "en": "We help you extract value from your data. Analytics, dashboards, and data-driven decisions."
       },
-      "highlights": ["Data Analysis", "Dashboards", "BI Solutions", "Data Engineering"]
+      "highlights": ["Data Analysis", "Dashboards", "Data Engineering"]
     },
     {
       "id": "consulting",
@@ -37,7 +37,7 @@
         "no": "Vi løser komplekse tekniske utfordringer. Fra arkitekturvalg til implementering og optimalisering.",
         "en": "We solve complex technical challenges. From architecture decisions to implementation and optimization."
       },
-      "highlights": ["Technical Advisory", "Architecture", "Software Development", "DevOps"]
+      "highlights": ["App Development", "AI Tools", "Software Development", "DevOps"]
     }
   ]
 }
