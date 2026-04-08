@@ -21,7 +21,7 @@ export interface Project {
   type: 'mobile-app' | 'web-app' | 'saas' | 'other';
   icon?: string;
   description: LocalizedString;
-  technologies: string[];
+  technologies?: string[];
   link?: string;
   featured: boolean;
   status?: 'in-development' | 'live' | 'completed';

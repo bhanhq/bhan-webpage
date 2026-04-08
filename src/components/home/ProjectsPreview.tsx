@@ -59,16 +59,6 @@ export function ProjectsPreview() {
               <p className="text-sm text-muted-foreground mb-4">
                 {getLocalizedValue(project.description, locale)}
               </p>
-              <div className="flex flex-wrap gap-1">
-                {project.technologies.map((tech) => (
-                  <span
-                    key={tech}
-                    className="text-xs px-2 py-0.5 bg-muted rounded text-muted-foreground font-mono"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
               {project.link && (
                 <a
                   href={project.link}

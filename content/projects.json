@@ -1,16 +1,15 @@
 {
   "projects": [
     {
-      "slug": "kvern",
-      "name": "Kvern",
-      "type": "web-app",
-      "icon": "/images/projects/kvern-logo.png",
+      "slug": "zynkup",
+      "name": "ZynkUp",
+      "type": "mobile-app",
+      "icon": "/images/projects/zynkup-logo.png",
       "description": {
-        "no": "Vi ville utforske RAG og dokumentsøk, så vi bygget Kvern. Last opp dokumentene dine, søk med vanlig språk, og få AI-genererte svar med kildehenvisninger til PDF-en.",
-        "en": "We wanted to explore RAG and document search, so we built Kvern. Upload your documents, search using plain language, and get AI-generated answers with citations to the PDF."
+        "no": "Din første sosiale kalender. Planlegg like enkelt som å legge noe i kalenderen. Del med venner, oppdag arrangementer og chat — alt på ett sted.",
+        "en": "Your first social calendar. Planning is as easy as adding something to your calendar. Share with friends, discover events, and chat — all in one place."
       },
-      "technologies": ["AI", "RAG", "React", "TypeScript", "Python", "FastAPI"],
-      "link": "https://kvern.vercel.app/",
+"link": "https://zynkup.no",
       "featured": true
     }
   ]

@@ -32,10 +32,9 @@
     "viewAll": "Se hele teamet"
   },
   "projects": {
-    "title": "Sideprosjekter",
-    "subtitle": "Bygget for å lære, delt med andre",
+    "title": "Prosjekter",
+    "subtitle": "Det vi bygger",
     "viewAll": "Se alle prosjekter",
-    "technologies": "Teknologier",
     "visitProject": "Besøk prosjekt",
     "status": {
       "in-development": "Under utvikling",

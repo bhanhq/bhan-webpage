@@ -32,10 +32,9 @@
     "viewAll": "View full team"
   },
   "projects": {
-    "title": "Side Projects",
-    "subtitle": "Built to learn, shared with others",
+    "title": "Projects",
+    "subtitle": "What we build",
     "viewAll": "View all projects",
-    "technologies": "Technologies",
     "visitProject": "Visit project",
     "status": {
       "in-development": "In Development",
